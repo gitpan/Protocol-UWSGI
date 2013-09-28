@@ -1,0 +1,50 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 c27ae82d27ee77244181ddc076d91d90b373a7b0 Changes
+SHA1 28defdd86ba92346f338593327743fb6f52009a4 INSTALL
+SHA1 aeb48d9f22d31def6e02d02d35dd602604e84a36 LICENSE
+SHA1 57a3c514dbfd8a43fb02d5950c07b9bbbf969202 MANIFEST
+SHA1 239f9182c78bb34d9040a7866f753d0e6044d7d0 META.json
+SHA1 6c4f4a121a299dd51e1252d9ca093d8d77e6871a META.yml
+SHA1 1af81910cfd21f892f9b591579a29253691ab6a3 Makefile.PL
+SHA1 4fb2df657cb4aa585f8f63695987a9990872edec README
+SHA1 251a45af2b235007cb27311d0fd1de9f73a68fc9 cpanfile
+SHA1 c4252ce405ccc0a4f951ab12069632bedb83ee1f dist.ini
+SHA1 ce4e74b5122dfa78fc546dc282da14c975d9bc6f lib/Protocol/UWSGI.pm
+SHA1 100d9573c357418c5e5c17c996e18559f90d3d46 t/00-check-deps.t
+SHA1 fc38df29e8ebe282aec549f73f609465f553c4b8 t/00-compile.t
+SHA1 1a9cd90f83dc2feedf9db10f9060029df16773eb t/build.t
+SHA1 8a649950be26c5ee378eec15b7347387b9586aef xt/author/test-eol.t
+SHA1 198d1665317c3d91e3bb81f0a3b8dad8d4d66f20 xt/release/common_spelling.t
+SHA1 c6c3c9f7fe12058b4771449dff874b1c450c982c xt/release/mojibake.t
+SHA1 4c599e8a4ebb7a899f90ee3c235a64fdbc7e2c06 xt/release/pod-coverage.t
+SHA1 4146b75714ac972231d12d4fb93e764817a5eb0b xt/release/pod-linkcheck.t
+SHA1 9934d36e45e1143c1a54658bc48872e0591af41b xt/release/pod-syntax.t
+SHA1 fd1fa776fca35fc8f1bdd24ee3fbaa1eca755a44 xt/release/synopsis.t
+SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
+SHA1 ec3f84bfd7a9ce3246e7592f4134100c6b5ce02b xt/release/unused-vars.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJSRybLAAoJEFKElMNpjtyDUSoIAIVOeKu6ryMuC4Pw4bdLmFgx
+fu9R7458CJ6k3Nc6pBZVZOSdChiiUt8Mabj4sMJV0V4elk6NHZnG563ILwISEaVl
+6BOlR6/ZScY6Yjkd9Y0jwMVC2nlWxHCEKM1tJwRf5lNBJHaESCCgZ8gitukYNdKH
+A19A36f+9+72mYEeGNSe4FcesunpA4MZs5qj8vtlsmw+gk/oubUMfurWb2b0Yn1Q
+bheJwMRVbGYVWEuGIFJQUQJ0bxMmtxLBw9E1nfzs4HR4UkhIETvMSWvBczvuRz/2
+njpARJD9XH5njUluTpeE/AsZ4z3YhTRuApr8Ee/iMmyXNHhoYlJcAVQY21oTQiY=
+=XjEk
+-----END PGP SIGNATURE-----
