@@ -1,5 +1,17 @@
 Revision history for Protocol-UWSGI
 
+1.000     2014-08-11 18:04:41+01:00 Europe/London
+	Note that this version drops the constructor.
+	API should be stable now, any further changes will
+	be backward-compatible.
+
+	API CHANGES:
+	* Removed constructor entirely.
+	* This is now a standalone module which exports functions.
+
+	Performance improvements:
+	* extract_frame is now about 2.5x faster
+
 0.002     2014-08-06 15:40:28+01:00 Europe/London
 	Note that this version changes the return value
 	of extract_modifier/extract_frame.

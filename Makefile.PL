@@ -31,7 +31,7 @@ my %WriteMakefileArgs = (
     "Test::HexString" => 0,
     "Test::More" => "0.98"
   },
-  "VERSION" => "0.002",
+  "VERSION" => "1.000",
   "test" => {
     "TESTS" => "t/*.t"
   }
